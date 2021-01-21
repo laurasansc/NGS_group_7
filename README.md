@@ -11,12 +11,12 @@
 | What           | Where                              |
 | -------------- | ---------------------------------- |
 | Plots          | [R]()  [Python]()                  |
-| FastQC         | [Pre-trimming]() [Post-trimming]() |
+| FastQC         | [Pre-trimming Forward](https://github.com/laurasansc/NGS_group_7/blob/main/FastQC/SRR8595497_1_fastqc.png) [Post-trimming]() |
 | Samtools STATS | [Stats](https://github.com/laurasansc/NGS_group_7/blob/main/STATS/SRR8595497_merged_markdup.txt)                                   |
 | BAMstats       | [Coverage](https://github.com/laurasansc/NGS_group_7/blob/main/STATS/SRR8595497_markup_plot-coverage.png) , [GC content]( https://github.com/laurasansc/NGS_group_7/blob/main/STATS/SRR8595497_markup_plot-gc-content.png) , [More](https://github.com/laurasansc/NGS_group_7/tree/main/STATS)                                |
 | Poster         | [PDF]()                            |
 
-
+* To see the whole FastQC analysis, download the `.html` file and open in browser. 
 
 ## Commands and plots
 
