@@ -101,7 +101,7 @@ samtools view -s 22.[fraction] -b SRR85954XX.bam > SRR85954XX_sub.bam
 
 where 22 is a seed used for randomness of the selection.
 
-**Mark duplicate reads - Picard **
+**Mark duplicate reads - Picard**
 
 ```bash
 java -Xmx10g -jar /usr/local/bin/picard.jar MarkDuplicates -I SRR85954XX_merged.bam -M SRR85954XX_sub_markdup.metrics.txt -O SRR85954XX_sub_markdup.bam
@@ -142,22 +142,6 @@ The VCFs should be sorted before combining them.
 ```bash
 bcftools concat -o SRR85954XX.vcf.gz --threads 2 SRR85954XX_chr_1.vcf.gz SRR85954XX_chr_2.vcf.gz SRR85954XX_chr_3.vcf.gz SRR85954XX_chr_4.vcf.gz SRR85954XX_chr_5.vcf.gz SRR85954XX_chr_6.vcf.gz SRR85954XX_chr_7.vcf.gz SRR85954XX_chr_8.vcf.gz SRR85954XX_chr_9.vcf.gz SRR85954XX_chr_10.vcf.gz SRR85954XX_chr_11.vcf.gz SRR85954XX_chr_12.vcf.gz SRR85954XX_chr_13.vcf.gz SRR85954XX_chr_14.vcf.gz SRR85954XX_chr_15.vcf.gz SRR85954XX_chr_16.vcf.gz SRR85954XX_chr_17.vcf.gz SRR85954XX_chr_18.vcf.gz SRR85954XX_chr_19.vcf.gz SRR85954XX_chr_20.vcf.gz SRR85954XX_chr_21.vcf.gz SRR85954XX_chr_22.vcf.gz
 ```
-
-
-
-​	
-
-
-
-
-
-
-
-
-
-
-
-
 
 **Check concordance of variant calling across sample type**
 
