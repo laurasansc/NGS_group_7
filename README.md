@@ -11,7 +11,7 @@
 | What           | Where                              |
 | -------------- | ---------------------------------- |
 | Plots          | [R](https://github.com/laurasansc/NGS_group_7/blob/main/plots/plots.R)  [Python](https://github.com/laurasansc/NGS_group_7/blob/main/plots/venn.py)                  |
-| FastQC         | [Pre-trimming Forward](https://github.com/laurasansc/NGS_group_7/blob/main/FastQC/SRR8595497_1_fastqc.png) [Post-trimming Forward](https://github.com/laurasansc/NGS_group_7/blob/main/FastQC/SRR8595497_1_trim_fastqc.png) |
+| FastQC         | [Pre-trimming Forward](https://github.com/laurasansc/NGS_group_7/blob/main/FastQC/SRR8595497_1_fastqc.png) [Post-trimming Forward](https://github.com/laurasansc/NGS_group_7/blob/main/FastQC/SRR8595497_1_trim_fastqc.png) [HTML files](https://github.com/laurasansc/NGS_group_7/blob/main/FastQC/) |
 | Samtools STATS | [Stats](https://github.com/laurasansc/NGS_group_7/blob/main/STATS/SRR8595497_merged_markdup.txt)                                   |
 | BAMstats       | [Coverage](https://github.com/laurasansc/NGS_group_7/blob/main/STATS/SRR8595497_markup_plot-coverage.png) , [GC content]( https://github.com/laurasansc/NGS_group_7/blob/main/STATS/SRR8595497_markup_plot-gc-content.png) , [More](https://github.com/laurasansc/NGS_group_7/tree/main/STATS)                                |
 | Poster         | [PDF](https://github.com/laurasansc/NGS_group_7/blob/main/Poster/NGS_poster.pdf)                            |
