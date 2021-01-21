@@ -211,7 +211,7 @@ An option to run BLAST if it is not build in the cluster that you are using is u
 
 [BLAST online](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome)
 
-4. For each match, the esummary program from NCBI was used to determine the taxonomic ID of the organism from which the database sequence was derived. The domain (e.g., bacteria or eukaryota) associated with that taxonomic ID was determined using the `fullnamelineage.dmp` file, which can be downloaded from: https://ftp.ncbi.nlm.nih.gov/pub/taxonomy/new_taxdump/new_taxdump.tar.gz. 
+For each match, the esummary program from NCBI was used to determine the taxonomic ID of the organism from which the database sequence was derived. The domain (e.g., bacteria or eukaryota) associated with that taxonomic ID was determined using the `fullnamelineage.dmp` file, which can be downloaded from: https://ftp.ncbi.nlm.nih.gov/pub/taxonomy/new_taxdump/new_taxdump.tar.gz. 
 
 
 
