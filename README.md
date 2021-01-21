@@ -112,6 +112,7 @@ java -Xmx10g -jar /usr/local/bin/picard.jar MarkDuplicates -I SRR85954XX_merged.
 ```bash
 samtools rmdup SRR95854XX_merged.bam SRR95854XX_merged_rmdup.bam
 ```
+*We ran both commands, but ended up using the marked duplicate reads instead of the output from rmdup.*
 
 **Index BAM files**
 
