@@ -12,8 +12,8 @@
 | -------------- | ---------------------------------- |
 | Plots          | [R]()  [Python]()                  |
 | FastQC         | [Pre-trimming]() [Post-trimming]() |
-| Samtools STATS |                                    |
-| BAMstats       |                                    |
+| Samtools STATS | [Stats](https://github.com/laurasansc/NGS_group_7/blob/main/STATS/SRR8595497_merged_markdup.txt)                                   |
+| BAMstats       | [Coverage](https://github.com/laurasansc/NGS_group_7/blob/main/STATS/SRR8595497_markup_plot-coverage.png) , [GC content]( https://github.com/laurasansc/NGS_group_7/blob/main/STATS/SRR8595497_markup_plot-gc-content.png) , [More](https://github.com/laurasansc/NGS_group_7/tree/main/STATS)                                |
 | Poster         | [PDF]()                            |
 
 
